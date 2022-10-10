@@ -138,6 +138,9 @@ main{
     .hero-image{
         display: none;
     }
+    .dishes-grid{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+    }
 }
 
 @media screen and (max-width: 460px) {
